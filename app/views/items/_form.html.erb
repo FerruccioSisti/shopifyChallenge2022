@@ -17,10 +17,10 @@
     <%= f.input :description, required: true, label: false %>
     <br>
     <%= f.label :image, class:"form-control" %>
-    <%= f.file_field :image %>
+    <%= f.file_field :image, required: true %>
   </div>
 
-  <br>
+  <br><br>
   <div class="form-actions">
     <%= f.button :submit %>
   </div>

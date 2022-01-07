@@ -1,24 +1,5 @@
-# README
+About the project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project based on the guidelines on the Shopify 2022 Intern application. It is a basic CRUD application which replicates an inventory management system. You are able to create inventory items, edit, view, and delete each of them, as well as view the entire inventory at once. This can be done by using the links in the top navbar or with the links alongside each item in the group view page. This project was creating using Ruby on Rails, with active storage for the image component.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The feature I chose to include from the provided list was allowing image uploads and storing of the image with generated thumbnails. Thank you for taking the time to look at my project and for the consideration of my application. If you have any questions or advice to improve, my email is ferrucciosisti@gmail.com 

@@ -33,13 +33,14 @@ th, td {
     <% @items.each do |item| %>
       <tr>
         <td><div style="width:150px; height: 150px;">
-          <%= image_tag(item.image, style:'width:100%') %>
+          <%= image_tag(item.image, style:'width:100%; height:100%') %>
         </div>
         </td>
         <td><%= item.title %></td>
         <td><%= item.quantity %></td>
         <td><%= item.price %></td>
         <td><%= item.description %></td>
+        <td><%= link_to 'View', item %></td>
         <td><%= link_to 'Edit', edit_item_path(item) %></td>
         <td><%= link_to 'Delete', item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
@@ -49,5 +50,4 @@ th, td {
 
 <br>
 
-<%= link_to 'New Item', new_item_path %>
 
